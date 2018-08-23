@@ -1,5 +1,6 @@
 import os, requests
 
+BASE_URL = 'https://app.nanonets.com/api/v2/ImageCategorization/'
 url = BASE_URL + 'UploadFile/'
 categories = ["Tshirt", "Trouser", "Pullover", "Dress", "Coat", "Sandal", "Shirt", "Sneaker", "Bag", "Ankle_Boot"]
 ext = ['.jpeg', '.jpg', ".JPG", ".JPEG"]
