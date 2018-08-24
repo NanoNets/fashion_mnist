@@ -14,4 +14,4 @@ result = json.loads(response.text)['result'][0]['prediction']
 probabilities = [result_dict['probability'] for result_dict in result]
 best_index = numpy.argmax(probabilities)
 best_label = result[best_index]['label']
-print('The predicted label is: ', best_label)
+print('The predicted label is:', str(best_label))
